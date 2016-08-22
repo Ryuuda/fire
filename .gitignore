@@ -1,1 +1,7 @@
-.idea/
+.idea/*
+assets/
+firetv.css
+firetv.zip
+js/
+node_modules/
+package.json
