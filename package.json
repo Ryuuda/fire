@@ -1,0 +1,27 @@
+{
+  "name": "web-app-starter-kit-for-fire-tv",
+  "version": "1.3.0",
+  "description": "Web App Starter Kit for Fire TV",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/amzn/web-app-starter-kit-for-fire-tv",
+  "files": [
+    "src/**/*",
+    "docs/**/*",
+    "gulpfile.js",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "serve -p 3000"
+  },
+  "devDependencies": {
+    "del": "^1.1.0",
+    "jshint-stylish": "^1.0.1",
+    "merge-stream": "^0.1.6",
+    "vinyl-paths": "^1.0.0"
+  },
+  "dependencies": {
+    "videojs": "1.0.0",
+    "videojs-contrib-hls": "3.5.2",
+    "videojs-overlay": "1.1.0"
+  }
+}
